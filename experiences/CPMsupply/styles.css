@@ -762,6 +762,10 @@ header {
     margin-bottom: 2px;
 }
 
+#challenge {
+        scroll-margin-top: 40px;
+    }
+
 .section:nth-child(even) {
     background: var(--bg-light);
 }
@@ -1366,6 +1370,11 @@ footer {
    RESPONSIVE DESIGN - TABLET
    ======================================== */
 @media (max-width: 768px) {
+    
+    #challenge {
+        scroll-margin-top: -10px;
+    }
+    
     .header-content {
         flex-direction: column;
         text-align: center;
@@ -1498,6 +1507,11 @@ footer {
    RESPONSIVE DESIGN - MOBILE
    ======================================== */
 @media (max-width: 480px) {
+    
+    #challenge {
+        scroll-margin-top: -10px;
+    }
+
     .nav-links {
         gap: 10px;
     }

@@ -217,6 +217,10 @@ header {
     background: linear-gradient(135deg, var(--bg-white) 0%, #f0f4f8 100%);
 }
 
+#about {
+    scroll-margin-top: 30px;
+}
+
 .business-card {
     max-width: 1000px;
     margin: 0 auto;
@@ -724,9 +728,13 @@ header {
     background: var(--bg-light);
 }
 
+#experiences {
+    scroll-margin-top: 40px;
+}
+
 .experience-header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .experience-header h2 {
@@ -1471,6 +1479,23 @@ footer {
 /* Tablet Styles */
 @media (max-width: 768px) {
 
+    #about {
+        scroll-margin-top: -40px;
+    }
+
+    /* Experiences */
+    #experiences {
+        scroll-margin-top: -35px;
+    }
+
+    .experience-header {
+        margin-bottom: 10px;
+    }
+
+    .experience-header h2 {
+        margin-bottom: 0px;
+    }
+
     /* Navigation */
     .navbar-container {
         flex-direction: column;
@@ -1693,6 +1718,23 @@ footer {
 
 /* Mobile Styles */
 @media (max-width: 480px) {
+
+    #about {
+        scroll-margin-top: -40px;
+    }
+
+    /* Experiences */
+    #experiences {
+        scroll-margin-top: -40px;
+    }
+
+    .experience-header {
+        margin-bottom: 10px;
+    }
+
+    .experience-header h2 {
+        margin-bottom: 0px;
+    }
 
     /* Navigation */
     .nav-links {

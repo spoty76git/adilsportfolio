@@ -680,6 +680,10 @@ header {
     margin-bottom: 2px;
 }
 
+#challenge {
+        scroll-margin-top: 40px;
+    }
+
 .section:nth-child(even) {
     background: var(--bg-light);
 }
@@ -1248,6 +1252,11 @@ footer {
 ======================================== */
 /* Tablet and Desktop */
 @media (max-width: 768px) {
+    
+    #challenge {
+        scroll-margin-top: -10px;
+    }
+    
     .header-content {
         flex-direction: column;
         text-align: center;
@@ -1381,6 +1390,11 @@ footer {
 
 /* Mobile Phones */
 @media (max-width: 480px) {
+    
+    #challenge {
+        scroll-margin-top: -10px;
+    }
+
     .hero h2 {
         font-size: 24px;
     }
